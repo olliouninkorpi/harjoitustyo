@@ -13,6 +13,8 @@ namespace Windows {
             namespace Controls {
                 ref class Button;
                 ref class ComboBox;
+                ref class TextBlock;
+                ref class TextBox;
             }
         }
     }
@@ -35,6 +37,15 @@ namespace harjoitustyo
     
         private: ::Windows::UI::Xaml::Controls::Button^ lahetaPainike;
         private: ::Windows::UI::Xaml::Controls::ComboBox^ harjoitusTyyppi;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock_Copy;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock_Copy1;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ kesto;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock_Copy2;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock_Copy3;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ textBlock_Copy4;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ matka;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ kuvaus;
     };
 }
 

@@ -21,5 +21,6 @@ namespace harjoitustyo
 		void button1_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void lahetaPainike_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void comboBox_SelectionChanged(Platform::Object^ sender, Windows::UI::Xaml::Controls::SelectionChangedEventArgs^ e);
+		void textBox_TextChanged(Platform::Object^ sender, Windows::UI::Xaml::Controls::TextChangedEventArgs^ e);
 	};
 }

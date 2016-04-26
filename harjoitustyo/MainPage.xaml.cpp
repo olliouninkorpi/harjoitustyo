@@ -43,3 +43,9 @@ void harjoitustyo::MainPage::comboBox_SelectionChanged(Platform::Object^ sender,
 {
 
 }
+
+
+void harjoitustyo::MainPage::textBox_TextChanged(Platform::Object^ sender, Windows::UI::Xaml::Controls::TextChangedEventArgs^ e)
+{
+
+}

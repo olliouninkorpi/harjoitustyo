@@ -8,9 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="lahetaPainike" Content="Tallenna" Click="lahetaPainike_Click" Height="42" Width="105" RenderTransformOrigin="0.496,0.5" Margin="686,470,0,208"/>
+        <Button x:Name="lahetaPainike" Content="Tallenna" Click="lahetaPainike_Click" Height="42" Width="105" RenderTransformOrigin="0.496,0.5" Margin="715,572,0,106"/>
         <DatePicker HorizontalAlignment="Left" Margin="524,266,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="harjoitusTyyppi" HorizontalAlignment="Left" Margin="524,204,0,0" VerticalAlignment="Top" Width="152" SelectionChanged="comboBox_SelectionChanged" PlaceholderText="Harjoitustyyppi"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="338,209,0,0" TextWrapping="Wrap" Text="Harjoituksen tyyppi:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="338,268,0,0" TextWrapping="Wrap" Text="Päivämäärä:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="338,325,0,0" TextWrapping="Wrap" Text="Harjoituksen kesto:" VerticalAlignment="Top"/>
+        <TextBox x:Name="kesto" HorizontalAlignment="Left" Margin="524,325,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="613,329,0,0" TextWrapping="Wrap" Text="minuuttia" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="338,391,0,0" TextWrapping="Wrap" Text="Matka:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="338,457,0,0" TextWrapping="Wrap" Text="Vapaaehtoinen kuvaus:" VerticalAlignment="Top"/>
+        <TextBox x:Name="matka" HorizontalAlignment="Left" Margin="524,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="kuvaus" HorizontalAlignment="Left" Margin="524,457,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="textBox_TextChanged" RenderTransformOrigin="0.562,2.594" Height="84" Width="296"/>
 
     </Grid>
 </Page>
