@@ -10,7 +10,13 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="lahetaPainike" Content="Tallenna" Click="lahetaPainike_Click" Height="42" Width="105" RenderTransformOrigin="0.496,0.5" Margin="715,572,0,106"/>
         <DatePicker HorizontalAlignment="Left" Margin="524,266,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="harjoitusTyyppi" HorizontalAlignment="Left" Margin="524,204,0,0" VerticalAlignment="Top" Width="152" SelectionChanged="comboBox_SelectionChanged" PlaceholderText="Harjoitustyyppi"/>
+        <ComboBox x:Name="harjoitusTyyppi" HorizontalAlignment="Left" Margin="524,204,0,0" VerticalAlignment="Top" Width="152" SelectionChanged="comboBox_SelectionChanged" PlaceholderText="Harjoitustyyppi">
+            <ListBoxItem Content="Pyöräily"/>
+            <ListBoxItem Content="Juoksu"/>
+            <ListBoxItem Content="Kävely"/>
+            <ListBoxItem Content="Sali"/>
+            <ListBoxItem/>
+        </ComboBox>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="338,209,0,0" TextWrapping="Wrap" Text="Harjoituksen tyyppi:" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="338,268,0,0" TextWrapping="Wrap" Text="Päivämäärä:" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="338,325,0,0" TextWrapping="Wrap" Text="Harjoituksen kesto:" VerticalAlignment="Top"/>

@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="harjoitustyo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:harjoitustyo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="lahetaPainike" Content="Tallenna"                             Height="42" Width="105" RenderTransformOrigin="0.496,0.5" Margin="715,572,0,106"/>
+        <DatePicker HorizontalAlignment="Left" Margin="524,266,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:ConnectionId='2' x:Name="harjoitusTyyppi" HorizontalAlignment="Left" Margin="524,204,0,0" VerticalAlignment="Top" Width="152"                                              PlaceholderText="Harjoitustyyppi">
+            <ListBoxItem Content="Pyöräily"/>
+            <ListBoxItem Content="Juoksu"/>
+            <ListBoxItem Content="Kävely"/>
+            <ListBoxItem Content="Sali"/>
+            <ListBoxItem/>
+        </ComboBox>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="338,209,0,0" TextWrapping="Wrap" Text="Harjoituksen tyyppi:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="338,268,0,0" TextWrapping="Wrap" Text="Päivämäärä:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="338,325,0,0" TextWrapping="Wrap" Text="Harjoituksen kesto:" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='6' x:Name="kesto" HorizontalAlignment="Left" Margin="524,325,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"                                  />
+        <TextBlock x:ConnectionId='7' x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="613,329,0,0" TextWrapping="Wrap" Text="minuuttia" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='8' x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="338,391,0,0" TextWrapping="Wrap" Text="Matka:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='9' x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="338,457,0,0" TextWrapping="Wrap" Text="Vapaaehtoinen kuvaus:" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='10' x:Name="matka" HorizontalAlignment="Left" Margin="524,391,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"                                  />
+        <TextBox x:ConnectionId='11' x:Name="kuvaus" HorizontalAlignment="Left" Margin="524,457,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"                                   RenderTransformOrigin="0.562,2.594" Height="84" Width="296"/>
+
+    </Grid>
+</Page>
+
